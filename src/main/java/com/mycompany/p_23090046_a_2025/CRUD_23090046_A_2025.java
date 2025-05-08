@@ -17,8 +17,8 @@ public class CRUD_23090046_A_2025 {
 
     public CRUD_23090046_A_2025() {
         mongoClient = MongoClients.create(URI);
-        database = mongoClient.getDatabase("mahasiswa_db");
-        collection = database.getCollection("data_mahasiswa");
+        database = mongoClient.getDatabase("uts_23090046_A_2025");
+        collection = database.getCollection("coll_23090046_A_2025");
         System.out.println("Terhubung ke MongoDB: Mahasiswa Database");
     }
 
